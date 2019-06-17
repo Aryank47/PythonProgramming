@@ -1,3 +1,3 @@
 # PythonProgramming
-Python
-These are just beginner level programs.
+
+These are just beginner level programs to get aquainted with python language.
