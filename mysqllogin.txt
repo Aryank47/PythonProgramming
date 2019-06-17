@@ -1,0 +1,31 @@
+//opening mysql from cmd
+1:change directory to bin folder of mysql server
+
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+2:mysql -u root -p//to login as root
+
+show databases;
+use sys;//change databases
+show tables;
+
+mysql datatypes:
+	varchar(10)
+	int(5)
+	float(5,3)
+	
+	
+create table student(
+Name varchar(50),
+Age int,
+Branch varchar(50),
+USN  varchar(10),
+Semester int,
+constraint pk1 primary key(USN)
+);
+
+insert into student values('Aryan',19,'CS','1si16cs021',7);
+
+insert into student (Name,USN) values('Ashish','1si16cs023');
+
+update student set Age=22 where Name='Ashish';
